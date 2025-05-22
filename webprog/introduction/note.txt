@@ -1,0 +1,39 @@
+how to init git and add git to project ?
+    git init 
+
+how to delete git from project ?
+    rm -rf .git
+
+how to track files and add file to stage area in git ?
+    git add filename
+
+how to add all files to stage ? 
+    git add .
+
+area in git have three side => work dir ==(git add)=> stage ==(git commit)=> repository
+
+
+how to recovery file from file from stage to work dir ?
+    git rm --cached filename
+
+
+how to add some file to repository ? 
+    git commit -m "message ..."    
+
+
+how to config global user name and user email in git ?
+    git config ---global user.name "user name"    
+    git config --global user.email "user email"
+
+
+how to show repository in git ?    
+    git log 
+
+how to show repository in git shorter ?
+    git log --oneline    
+
+how to show repository in git shorter and graphical ?     
+    git log --oneline --graph
+
+how to edit commit message or add some files ?
+    git commit --amend -m "new message"    

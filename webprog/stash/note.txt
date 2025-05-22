@@ -1,0 +1,21 @@
+how to save some data in stash ? 
+    git stash save "stash_message"
+
+how to apply last stash and drop it ? 
+    git stash pop    
+
+how to apply last stash and not drop it ?
+    git stash apply    
+
+how to show all stashes ? 
+    git stash list    
+
+how to apply stash with stash_hash ? 
+    git stash apply <stash_message> 
+
+
+how to delete one stash ? 
+    git stash drop <stash_hash>
+
+how to delete all stashes ?
+    git stash clear    

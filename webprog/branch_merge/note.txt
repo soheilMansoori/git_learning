@@ -1,0 +1,38 @@
+how to show all branches ? 
+    git branch
+
+how to create branch ?
+    git branch <branch_name>
+
+how to switch between branches ? 
+    git switch <branch_name>
+
+
+
+when switch between branches if remember commit all changes redirect to switched branch
+
+
+how to show all branches and commits with graph ? 
+    git log --all --graph
+
+
+how to create branch and switch together ?     
+    git switch -c <branch_name>
+
+how to rename branch ? 
+    git branch -m <branch_name>    
+
+how to delete branch ?
+    git branch -d <branch_name>
+
+how to delete un merged branch ? 
+    git branch -D <branch_name>
+
+
+in git we have 3 type of merge 
+    1 - Fast-Forward Merge
+    2 - Recursive Merge    
+    3 - Squash Merge
+
+how to add and and commit together ? 
+    git commit -am "message"    

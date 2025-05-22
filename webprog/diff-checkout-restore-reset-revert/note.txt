@@ -1,0 +1,38 @@
+how to compare work-dir and stage ?
+    git diff
+
+how to compare last commit and stage ? 
+    git diff --staged 
+
+how to compare last commit work-dir ?    
+    git diff HEAD
+
+how to compare two commit ? 
+    git diff hash-commit-1 hash-commit-2    
+
+how to compare two branch ?
+    git diff branch-name-1 branch-name-2    
+
+
+how to comeback to some commit ?
+    git checkout <commit_hash>    
+
+how to back one switch ?
+    git switch -     
+
+how to checkout with number ? 
+    git checkout HEAD~<number>    
+
+how clear work-dir and remove all changes ?
+    git restore <file_name>     
+
+how to recovery file form stage to work-dir ?
+    git restore --staged <file_name>
+
+
+how to restore one file to prev file data ?    
+    git restore --source <commit_hash> <file_name>
+
+
+how to comeback to some commit and select changes data ? 
+    git revert <commit_hash>
